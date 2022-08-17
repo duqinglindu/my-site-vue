@@ -1,0 +1,37 @@
+{
+  "name": "my-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modern",
+    "test:Pager": "winpty vue.cmd serve ./src/components/Pager/test.vue",
+    "test:Avatar": "winpty vue.cmd serve ./src/components/Avatar/test.vue",
+    "test:Icon": "winpty vue.cmd serve ./src/components/Icon/test.vue",
+    "test:Empty": "winpty vue.cmd serve ./src/components/Empty/test.vue",
+    "test:ImageLoader": "winpty vue.cmd serve ./src/components/ImageLoader/test.vue",
+    "test:Contact": "winpty vue.cmd serve ./src/components/SiteAside/Contact/test.vue",
+    "test:Menu": "winpty vue.cmd serve ./src/components/SiteAside/Menu/test.vue",
+    "test:SiteAside": "winpty vue.cmd serve ./src/components/SiteAside/test.vue",
+    "test:Layout": "winpty vue.cmd serve ./src/components/Layout/test.vue",
+    "test:RightList": "winpty vue.cmd serve ./src/views/Blog/components/RightList/test.vue",
+    "test:MessageArea": "winpty vue.cmd serve ./src/components/MessageArea/test.vue"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "highlight": "^0.2.4",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "mockjs": "^1.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

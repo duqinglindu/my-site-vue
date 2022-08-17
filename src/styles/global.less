@@ -1,0 +1,63 @@
+/* 
+全局通用样式
+*/
+@import "./var.less";
+
+html{
+    color: @words;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue",
+        "微软雅黑", sans-serif;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+h1, h2, h3{
+    font-size: inherit;
+    font-weight: normal;
+    color: inherit;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: color .15s;
+    &:hover{
+        color: @primary;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 0;
+}
+::-webkit-scrollbar-thumb{
+    background: #d1d4db;
+    border-radius: 4px;
+}
+
+input,
+textarea,
+button{
+    font: inherit;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+button{
+    background-color: inherit;
+}
